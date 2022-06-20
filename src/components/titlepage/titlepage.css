@@ -1,0 +1,85 @@
+.titlepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    padding: 4% 0%;
+    padding-bottom: 0%;
+}
+.content h1{
+    font-size: 37px;
+    margin: 0%;
+    padding: 2.5% 0%;
+}
+.content p{
+    font-size: 15px;
+    margin: 0;
+    padding: 1% 0%;
+    line-height: 1.5;
+}
+.content button{
+    padding: 2% 9%;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: white;
+    background-color: transparent;
+    margin: 3% 0% 1% 0%;
+    font-size: 13px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+.image img{
+    width: 90%;
+    margin-top: -9%;
+    z-index: -1;
+
+}
+.smoke{
+    transform: rotate(79deg);
+    opacity: 0.1;
+    position: relative;
+    left: -19%;
+}
+
+@media only screen and (max-width: 850px) {
+    .content h1{
+        font-size: 27px;
+    }
+    .content p{
+        font-size: 9px;
+    }
+    .content button{
+        padding: 1.6% 7%;
+        font-size: 12px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .content h1{
+        font-size: 22px;
+    }
+    .content p{
+        font-size: 8px;
+    }
+    .content button{
+        padding: 1.3% 7%;
+        font-size: 11px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+}
